@@ -1,0 +1,147 @@
+.feed {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .new-post {
+    margin-bottom: 20px;
+  }
+  
+  .new-post textarea {
+    width: calc(100% - 60px);
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .new-post button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .post h4 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .post p {
+    margin: 10px 0;
+  }
+  
+  .post-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* .post-actions button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  } */
+
+  .post-actions button {
+    background: none;
+    border: none;
+    color: #ff6b6b;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .post-actions button i {
+    transition: color 0.2s ease;
+  }
+  
+  .post-actions button:hover i {
+    color: #e63946;
+  }
+  
+  
+  .comments {
+    margin-top: 15px;
+  }
+  
+  .comment {
+    margin: 5px 0;
+    padding: 5px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+  
+  .comments input {
+    width: calc(100% - 60px);
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+  }
+  
+  .comments button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .post-image {
+    width: 100%; 
+    height: auto;     
+    margin-top: 10px;
+  }
+
+  
+  
+  .sort-options label {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  
+  .sort-options select {
+    padding: 3px;
+  }
+
+  .sort-options{
+    margin-top: 40px;
+    position: relative;
+    left: 70%;
+  }
+  .sort-options select:hover {
+    border-color: #007bff;
+
+  }
+
+
+  
+  
+  
